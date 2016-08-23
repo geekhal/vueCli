@@ -1,0 +1,33 @@
+{
+  "name": "vuecli",
+  "version": "1.0.0",
+  "description": "vue脚手架工程",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "vue": "^1.0.26",
+    "vue-router": "^0.7.13"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "css-loader": "^0.23.1",
+    "html-loader": "^0.4.3",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HalZhan/vueCli.git"
+  },
+  "author": "halzhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HalZhan/vueCli/issues"
+  },
+  "homepage": "https://github.com/HalZhan/vueCli#readme"
+}
