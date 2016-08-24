@@ -9,7 +9,7 @@ module.exports = {
         main: './src/app.js',
     },
     output: {
-        path: path.join(__dirname, flag, '[hash]'),
+        path: path.join(__dirname, flag),
         filename: 'app.bundle.js'
     },
     module: {
@@ -33,7 +33,7 @@ module.exports = {
                 fs.readFile(versionReadPath, 'utf-8', function(err, data) {
                     if (!err) {
                         var reg = new RegExp('{{version}}', 'ig');
-                        data = data.replace(reg, flag + '/' + stats.hash);
+                        data = data.replace(reg, flag + '/');
                         fs.writeFile(versionSavePath, data, 'utf-8', function(err2) {
                             if (err2) {
                                 console.log(err2);

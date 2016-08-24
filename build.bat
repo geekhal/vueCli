@@ -1,1 +1,1 @@
-webpack --config webpack.config.build.js --progress --colors & pause
+webpack --config webpack.config.build.js --progress --colors --watch & pause
