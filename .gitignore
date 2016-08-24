@@ -39,3 +39,4 @@ jspm_packages
 # Additional Ignore
 build/*
 release/*
+ver.js
