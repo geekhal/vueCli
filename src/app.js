@@ -1,9 +1,8 @@
-import $ from 'jquery';
-import Vue from 'vue';
-import Router from 'vue-router';
+import Vue from 'vue'; // 引入vue
+import Router from 'vue-router'; // 引入vue-router
 
-import Foo from './components/foo/foo';
-import Bar from './components/bar/bar';
+import Foo from './components/foo/foo'; // 引入foo模块
+import Bar from './components/bar/bar'; // 引入bar模块
 
 Vue.use(Router);
 
