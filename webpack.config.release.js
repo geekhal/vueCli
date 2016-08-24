@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var fs = require('fs');
 var versionReadPath = './src/ver.js';
 var versionSavePath = './ver.js';
-var flag = 'release'; //生产或调试环境标识
+var flag = 'release'; //生产或开发环境标识
 module.exports = {
     entry: {
         main: './src/app.js',
