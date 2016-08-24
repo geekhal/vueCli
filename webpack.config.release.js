@@ -29,7 +29,10 @@ module.exports = {
     plugins: [
         new webpack.optimize.UglifyJsPlugin({
             compress: {
-                warnings: false
+                warnings: false // 警告开关
+            },
+            output: {
+                comments: false // 注释开关
             }
         }),
         function() {
