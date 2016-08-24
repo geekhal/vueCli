@@ -27,6 +27,7 @@ module.exports = {
         ]
     },
     plugins: [
+        // js代码混淆插件
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false // 警告开关

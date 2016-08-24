@@ -1,0 +1,1 @@
+webpack --config webpack.config.release.js --progress --colors
