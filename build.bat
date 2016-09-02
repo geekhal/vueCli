@@ -1,1 +1,1 @@
-webpack --config webpack.config.build.js --progress --colors --watch & pause
+npm run build
