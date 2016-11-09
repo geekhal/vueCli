@@ -1,5 +1,4 @@
-import template from './bar.html'
-
+import template from './bar.html';
 export default {
 	template: template,
 	data() {
