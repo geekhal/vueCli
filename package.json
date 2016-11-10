@@ -28,10 +28,9 @@
     "webpack-merge": "^0.15.0"
   },
   "scripts": {
-    "test": "NODE_ENV=test webpack --progress --colors",
+    "test": "cross-env NODE_ENV=test webpack --progress --colors",
     "build": "webpack-dev-server --inline --progress --port 8080",
-    "dist": "NODE_ENV=production webpack --progress --colors",
-    "dist_win": "set NODE_ENV=production&&webpack --progress --colors"
+    "dist": "cross-env NODE_ENV=production webpack --progress --colors"
   },
   "repository": {
     "type": "git",

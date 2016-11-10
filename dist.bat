@@ -1,1 +1,1 @@
-npm run dist_win
+npm run dist
